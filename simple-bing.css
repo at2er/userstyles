@@ -1,0 +1,119 @@
+@-moz-document url-prefix("https://cn.bing.com/") {
+/* styles */
+#b_header,
+#b_content,
+.b_scopebar #b-scopeListItem-menu,
+.b_scopebar li {
+    padding: 0px;
+}
+
+#b_content {
+    padding-top: 30px;
+}
+
+.b_logoArea,
+.b_ans,
+#b_results .b_algo .b_vlist2col.b_deep,
+#b_algospacing,
+.b_msg.b_canvas,
+#b_header #id_h #id_mobile {
+    display: none;
+}
+
+#est_switch {
+    margin-left: 0px;
+    bottom: 0px;
+}
+
+#est_switch .est_selected::after {
+    border-bottom: 1px solid #e6f2f5;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+#est_cn::after,
+#est_en::after,
+#sw_as .sa_as,
+#est_switch + #sb_form .b_searchboxForm,
+#est_switch + #sb_form .b_searchboxForm:hover,
+.b_searchboxForm,
+.b_scopebar li.tools_scope a {
+    border-radius: 0px;
+}
+
+.b_dark .tools_scope.active a {
+    background: #323130;
+    color: #edebe9;
+    border-right: #a2b7f4 solid;
+}
+
+.b_searchbox {
+    height: 40px;
+}
+
+#b_header .b_scopebar {
+    margin-left: 200px;
+    margin-top: -67px;
+}
+
+.b_scopebar ul {
+    height: 25px;
+}
+
+.b_scopebar ul li {
+    height: 25px;
+    line-height: 25px;
+}
+
+.b_scopebar .b_active {
+    border-bottom: none;
+    background-color: #3b3a39;
+}
+
+.b_scopebar #b-scopeListItem-menu {
+    vertical-align: top;
+    height: 25px;
+    line-height: 25px;
+}
+
+#b_header .b_searchboxForm #sb_search,
+.mic_cont.icon.partner,
+#b_header .hasmic .mic_cont.partner,
+#b_header .hasmic:not(.hassbi) .mic_cont.partner,
+#sb_clt.sb_clrhov,
+.b_scopebar,
+#est_cn,
+#b_header .b_searchbox,
+#b_results .b_ans.b_top + .b_rc_gb_template,
+.b_scopebar li,
+#b_header #vkeyIcon,
+#detailheader #vkeyIcon,
+#miniheader #vkeyIcon {
+    margin: 0px;
+}
+
+#b_results {
+    column-count: 2;
+    width: 100%;
+}
+
+#b_results > li {
+    break-inside: avoid;
+}
+
+#b_results .b_ans.b_top + .b_rc_gb_template {
+    background-color: var(--htmlbk) !important;
+    margin-bottom: 4px;
+    border-radius: 0px;
+}
+
+/* colors */
+.b_dark,
+.b_dark .b_fpage,
+.b_dark #b_header,
+.b_dark #b_content {
+
+    background-color: #000000;
+}
+}
